@@ -1,0 +1,15 @@
+<div class="ps-3">
+  <h1>Stupid Coach</h1>
+  <div class="border-start border-5 bg-light ms-1 ps-1 w-25">
+    <p><%= @question %></p>
+    <p><i>--You</i></p>
+  </div>
+
+  <div class="border-start border-5 bg-warning bg-opacity-25 ms-1 ps-1 w-25">
+    <p><%= @answer %></p>
+    <p><i>--The Coach</i></p>
+  </div>
+
+
+  <%= link_to "Ask a new question", "/ask" %>
+</div>
